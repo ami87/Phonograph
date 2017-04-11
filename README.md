@@ -1,3 +1,9 @@
+# HOWTO BUILD
+With Android Studio or run this in the prompt:
+./gradlew build
+then the apk will be in /app/build/outputs/apk
+the release apk must be signed before installing
+
 # Phonograph
 A material designed local music player for Android.
 

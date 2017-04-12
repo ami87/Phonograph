@@ -36,7 +36,7 @@ android {
 
         applicationId "com.kabouzeid.gramophone"
         versionCode 130
-        versionName "0.15.0 BETA 1"
+        versionName "0.15.0 BETA 1 - mod"
     }
     buildTypes {
         release {

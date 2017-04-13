@@ -1,9 +1,6 @@
 # HOWTO BUILD
-You will need to have zipalign installed.
-To install zipalign run: "sudo apt install zipalign"
-
-Then run ./build.sh
-The script will build, sign and zipalign the apk, the final apk will be placed in the root of the source directory
+Run ./build.sh
+The script will build, sign and zipalign the apk, the final apk will be placed in the root of the source directory (Phonograph-release.apk).
 
 # Phonograph
 A material designed local music player for Android.

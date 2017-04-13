@@ -1,8 +1,9 @@
 # HOWTO BUILD
-With Android Studio or run this in the prompt:
-./gradlew build
-then the apk will be in /app/build/outputs/apk
-the release apk must be signed before installing
+You will need to have zipalign installed.
+To install zipalign run: "sudo apt install zipalign"
+
+Then run ./build.sh
+The script will build, sign and zipalign the apk, the final apk will be placed in the root of the source directory
 
 # Phonograph
 A material designed local music player for Android.
